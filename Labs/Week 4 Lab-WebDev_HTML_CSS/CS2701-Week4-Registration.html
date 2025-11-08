@@ -14,11 +14,16 @@
                        The css class of the menu is "navlist"
                        Check lecture slides about lists, an example of a more basic menu, and CSS class selector-->
             <ul class="navlist">
+                <li><a href="">Home</a></li>
+                <li><a href="">Register</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Help</a></li>
             </ul>
          </nav>
         <main>
             <!-- Check Week 4 Lecture to learn about HTML5 semantic elements-->
             <aside>
+                <input type="search" placeholder="Search">
             </aside>
             <section>
                 <form class="center" novalidate>
@@ -33,13 +38,26 @@
                            and how to create a button that would react to a click Event
                         -->
                     <!-- Example given for user type checkboxes-->
+                     <label for="name">Name:</label><br>
+                     <input type="text"> <br><br>
+                     <label for="email">Email:</label><br>
+                     <input type="email"> <br><br>
+                     <label for="password">Password:</label><br>
+                     <input type="password"> <br><br>
+                     <label for="password">Re-type password:</label><br>
+                     <input type="password"> <br><br>
+
+
                     
                     <input type="checkbox" id="buyer" name="buyer" value="buyer">
                     <label for="buyer">I want to buy produce directly from allotment owners.</label><br>
                     <input type="checkbox" id="seller" name="seller" value="seller">
                     <label for="seller">I want to sell produce from my allotment.</label><br><br>
+                    <input type="checkbox" id="seller" name="seller" value="seller">
+                    <label for="seller">I agree to the <a href="">Terms of Use</a> and <a href="">Privacy policy</a>.</label><br><br>
 
                     <br><br>
+                    <button>Register</button> <a href="">Learn more</a>
                 </form>
                 <div class="center" id="hiddenSection">
                     <p id="hiddenParagraph"></p>
